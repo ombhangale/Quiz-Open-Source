@@ -6,8 +6,7 @@
 
 🌍 Live Demo
 
-🔗 https://ombhangale.github.io/Quiz-Open-Source/
-
+🔗https://ombhangale.github.io/Quiz-Open-Source/
 ---
 
 🧩 Overview
