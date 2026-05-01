@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic-HTML QUIZ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section id="start-screen" class="card screen active fade-in" aria-live="polite">
+      <h1>Quiz</h1>
+      <p class="subtitle">Fill in your details to begin.</p>
+
+      <form id="start-form" novalidate>
+        <div class="field">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required />
+        </div>
+
+        <div class="field">
+          <label for="rollNumber">Roll Number</label>
+          <input type="text" id="rollNumber" name="rollNumber" placeholder="Enter roll number" required />
+        </div>
+
+        <div class="field">
+          <label for="division">Division</label>
+          <input type="text" id="division" name="division" placeholder="Enter division" required />
+        </div>
+
+        <p id="form-error" class="error-message" role="alert" aria-live="assertive"></p>
+
+        <button type="submit" class="btn primary">Start Quiz</button>
+      </form>
+    </section>
+
+    <section id="quiz-screen" class="card screen" aria-live="polite">
+      <div class="quiz-head">
+        <p id="progress-text">Question 1/25</p>
+        <p id="timer-text" class="timer">Time Left: 30s</p>
+      </div>
+
+      <div class="progress-bar-wrap" aria-hidden="true">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+
+      <h2 id="question-text">Question text</h2>
+      <div id="options-container" class="options"></div>
+
+      <div class="actions">
+        <button id="prev-btn" class="btn secondary" type="button">Previous</button>
+        <button id="next-btn" class="btn primary" type="button" disabled>Next</button>
+      </div>
+    </section>
+
+    <section id="result-screen" class="card screen" aria-live="polite">
+      <h2>Quiz Result</h2>
+      <div class="result-summary">
+        <p><strong>Name:</strong> <span id="res-name"></span></p>
+        <p><strong>Roll Number:</strong> <span id="res-roll"></span></p>
+        <p><strong>Division:</strong> <span id="res-division"></span></p>
+        <p><strong>Score:</strong> <span id="res-score"></span></p>
+        <p><strong>Performance:</strong> <span id="res-message"></span></p>
+      </div>
+
+      <button id="restart-btn" class="btn primary" type="button">Restart Quiz</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
