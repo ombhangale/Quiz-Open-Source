@@ -30,7 +30,7 @@ JavaScript| Logic & Functionality
 ---
 
 📁 Project Structure
-
+```
 Quiz-Open-Source/
 │
 ├── index.html      → Main entry point
@@ -38,7 +38,7 @@ Quiz-Open-Source/
 ├── script.js       → Quiz logic
 ├── README.md       → Documentation
 └── assets/         → Images / resources
-
+```
 ---
 
 🚦 How It Works
@@ -51,8 +51,8 @@ Quiz-Open-Source/
 
 ---
 👨‍💻 Author
-
+```
 Om Bhangale
 GitHub: https://github.com/ombhangale
-
+```
 ---
