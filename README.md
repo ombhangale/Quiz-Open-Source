@@ -1,16 +1,19 @@
+```
 🚀 Quiz Open Source App
+```
 
+```
 «A simple, fast, and interactive quiz application built using pure HTML, CSS, and JavaScript.»
-
----
-
+```
+```
 🌍 Live Demo
-
+```
 🔗https://ombhangale.github.io/Quiz-Open-Source/
 ---
 
+```
 🧩 Overview
-
+```
 This project is a browser-based quiz system where users can:
 
 - Enter their name
@@ -18,17 +21,18 @@ This project is a browser-based quiz system where users can:
 - Get instant feedback with final score
 
 ---
-
+```
 🧱 Tech Stack
-
+```
 Technology| Usage
 HTML| Structure
 CSS| Styling
 JavaScript| Logic & Functionality
 
 ---
-
+```
 📁 Project Structure
+```
 ```
 Quiz-Open-Source/
 │
@@ -39,9 +43,9 @@ Quiz-Open-Source/
 └── assets/         → Images / resources
 ```
 ---
-
+```
 🚦 How It Works
-
+```
 1. User enters their name
 2. Quiz starts with multiple questions
 3. User selects answers
