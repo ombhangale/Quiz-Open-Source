@@ -152,7 +152,7 @@ const QUESTIONS = [
  
 ];
 
-const QUESTION_TIME = 30;
+const QUESTION_TIME = 35;
 
 const startForm = document.getElementById("start-form");
 const fullNameInput = document.getElementById("fullName");
